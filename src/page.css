@@ -1,0 +1,32 @@
+body{
+    border: none;
+    background-color: powderblue;
+    text-align:center;
+}
+input{
+    border-radius: 10%;
+    background-color: aqua;
+    padding: 10px 15px;
+}
+input:valid {
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+input:invalid {
+    background: white;
+    border: 2px solid red;
+}
+button {
+    border-radius: 10%;
+    background-color: white;
+}
+button:hover{
+    background-color: lightblue;
+    transition: all 0.5s ease;
+    transform: translateY(-5px);
+}
+h1 {
+    color: violet;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+}
